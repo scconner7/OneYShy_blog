@@ -1,0 +1,21 @@
+[project]
+name = "tidyverse-to-python-blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "great-tables>=0.4.0",
+    "jupyter>=1.1.1",
+    "plotnine>=0.12.4",
+    "polars>=1.8.2",
+    "quarto>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pre-commit>=3.5.0",
+    "pytest>=8.3.5",
+    "ruff>=0.15.14",
+]

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# uv / venv
+.venv/
+
+# Positron / VS Code (keep settings, ignore caches)
+.vscode/*.log
+
+# Quarto
+/.quarto/
+*_files/
+*_cache/
+
+# Data — adjust as needed
+/data/raw/
+/data/interim/
+*.parquet
+*.duckdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+local_dev/
