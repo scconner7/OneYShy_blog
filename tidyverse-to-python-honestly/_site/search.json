@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tidyverse to Python, Honestly",
-    "section": "",
-    "text": "Hello, World!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
@@ -14,11 +7,11 @@
     "text": "This is a post with executable code.\n\nprint(\"Hello, World!\")\n\nHello, World!"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Hello, World!",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tidyverse to Python, Honestly",
     "section": "",
-    "text": "Kicking off this blog with the most overdone trope in all of tech blogging, baby! And the turbo-generic stock photo directly built-in to the Quarto default welcome page!"
+    "text": "Hello, World!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -40,5 +33,12 @@
     "title": "About",
     "section": "Experience",
     "text": "Experience\nGreen Mountain Technology | Senior Analytics Engineer | Aug. 2020 - Present\nMS State University - Stennis Institute of Government | Research Associate / Graduate Research Assistant | July 2017 - Aug. 2020"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello, World!",
+    "section": "",
+    "text": "Kicking off this blog with the most overdone trope in all of tech blogging, baby! And the turbo-generic stock photo directly built-in to the Quarto default welcome page!"
   }
 ]
