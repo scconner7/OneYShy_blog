@@ -1,0 +1,40 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/scconner7
+    - icon: file-earmark-person
+      text: Resume
+      href: https://scconner7.github.io/Resume/
+    - icon: github
+      text: Github
+      href: https://github.com/scconner7
+
+---
+
+Hi, I'm Sean Conner, a Sr. Analytics Engineer at Green Mountain Technology and a public policy and administration researcher turned parcel spend management and transportation SME. I've got an unconventional background and history, but I'm not shy nor embarrased by that. I'm proud of it, to be honest, because I think it shows that I accomplished what I had always set out to, which is to become someone who learns efficiently no matter the domain and can leverage technical skills to solve whatever problems feel valuable and/or interesting to solve at any given moment. When I'm not being a data nerd and academic:
+
+  * I'm a huge progressive rock / metal fan, especially Coheed and Cambria and The Dear Hunter
+  * I love to play DnD with my core group that has been playing together for over 10 years now
+  * I've always got at least one strategy game I'm hooked on at any given time, be it a digital card game (Magic: The Gathering Arena, Marvel Snap, Hearthstone, Slay the Spire), a board game (Chess, Root, Wyrmspan), a multiplayer online battle arena (MOBA) (DotA I/II, League of Legends), an auto battler (Teamfight Tactics), or a real-time strategy game (Starcraft II, Warcraft III, Age of Empires II, Age of Mythology).
+
+## Education
+
+MS State University | Starkville, MS |
+PhD in Public Policy and Administration (A.B.D.) | Anticipated 2027
+
+MS State University | Starkville, MS |
+Masters in Public Policy and Administration (MPPA) | Aug. 2016 - Aug. 2018
+
+University of MS | Oxford, MS |
+B.A in Political Science | Aug. 2010 - Aug. 2014
+
+## Experience
+
+Green Mountain Technology | Senior Analytics Engineer | Aug. 2020 - Present
+
+MS State University - Stennis Institute of Government | Research Associate / Graduate Research Assistant | July 2017 - Aug. 2020

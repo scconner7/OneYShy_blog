@@ -1,0 +1,10 @@
+---
+title: "Hello, World!"
+author: "Sean Conner"
+date: "2026-05-25"
+categories: [news]
+---
+
+Kicking off this blog with the most overdone trope in all of tech blogging, baby! And the turbo-generic stock photo directly built-in to the Quarto default welcome page!
+
+![](thumbnail.jpg)

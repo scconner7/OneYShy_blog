@@ -1,0 +1,13 @@
+---
+title: "Post With Code"
+author: "Sean Conner"
+date: "2026-05-25"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{python}
+print("Hello, World!")
+```
