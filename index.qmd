@@ -1,5 +1,5 @@
 ---
-title: "OneYShy Blog"
+pagetitle: "OneYShy Blog"
 listing:
   contents: posts
   feed: true
