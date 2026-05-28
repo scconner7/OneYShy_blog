@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+$font-main: 'DM', sans-serif;
+$font-heading: 'Bitter', serif;
+$code-font-family: 'Fira Code', monospace;
+$primary: #3df383;     // Primary color (hyperlinks, active states, buttons)
+$secondary: #3c4845;   // Secondary color
+$accent: #1b7974;      // Custom or Tertiary accent color for highlights
+
+/*-- scss:rules --*/
+
+.navbar-logo {
+  max-height: 100px;
+}
+
+body{
+    font-family: $font-main;
+}
+
+code, pre{
+    font-family: $code-font-family;
+}
+
+// All headings at once
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+}

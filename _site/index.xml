@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Tidyverse to Python, Honestly</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://scconner7.github.io/tidyverse_to_python_blog/</link>
+<atom:link href="https://scconner7.github.io/tidyverse_to_python_blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Mon, 25 May 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Hello, World!</title>
   <dc:creator>Sean Conner</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>https://scconner7.github.io/tidyverse_to_python_blog/posts/welcome/</link>
   <description><![CDATA[
 
 
@@ -22,19 +22,19 @@
 
 
 <p>Kicking off this blog with the most overdone trope in all of tech blogging, baby! And the turbo-generic stock photo directly built-in to the Quarto default welcome page!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://scconner7.github.io/tidyverse_to_python_blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>https://scconner7.github.io/tidyverse_to_python_blog/posts/welcome/</guid>
   <pubDate>Mon, 25 May 2026 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Post With Code</title>
   <dc:creator>Sean Conner</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <link>https://scconner7.github.io/tidyverse_to_python_blog/posts/post-with-code/</link>
   <description><![CDATA[
 
 
@@ -59,9 +59,9 @@ font-style: inherit;">"Hello, World!"</span>)</span></code></pre></div></div>
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
+  <guid>https://scconner7.github.io/tidyverse_to_python_blog/posts/post-with-code/</guid>
   <pubDate>Mon, 25 May 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://scconner7.github.io/tidyverse_to_python_blog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

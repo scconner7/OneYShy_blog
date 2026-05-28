@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  favicon: images/favicon.ico
+  description: "OneYShy blog"
+  site-url: https://scconner7.github.io/OneYShy/ # you must change this appropriately for RSS feeds to work properly
+  navbar:
+    logo: images/logo.png
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/scconner7
+      - icon: linkedin
+        href: https://linkedin.com/in/scconner7
+      - icon: file-earmark-person
+        href: https://scconner7.github.io/Resume/
+format:
+  html:
+    theme:
+      - cyborg
+      - styles.scss
