@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: master
+    branches: main
 
 name: Quarto Publish
 
@@ -21,6 +21,5 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: tidyverse-to-python-honestly
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

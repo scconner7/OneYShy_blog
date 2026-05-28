@@ -4,7 +4,7 @@ project:
 website:
   favicon: images/favicon.ico
   description: "OneYShy blog"
-  site-url: https://scconner7.github.io/OneYShy/ # you must change this appropriately for RSS feeds to work properly
+  site-url: https://scconner7.github.io/OneYShy_blog/ # you must change this appropriately for RSS feeds to work properly
   navbar:
     logo: images/logo.png
     right:
