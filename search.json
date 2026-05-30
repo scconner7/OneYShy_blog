@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\nprint(\"Hello, World!\")\n\nHello, World!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Hello, World!\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 25, 2026\n\n\nSean Conner\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, I’m Sean Conner, a Sr. Analytics Engineer at Green Mountain Technology and a public policy and administration researcher turned parcel spend management and transportation SME. I’ve got an unconventional background and history, but I’m not shy nor embarrased by that. I’m proud of it, to be honest, because I think it shows that I accomplished what I had always set out to, which is to become someone who learns efficiently no matter the domain and can leverage technical skills to solve whatever problems feel valuable and/or interesting to solve at any given moment. When I’m not being a data nerd and academic:"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nMS State University | Starkville, MS | PhD in Public Policy and Administration (A.B.D.) | Anticipated 2027\nMS State University | Starkville, MS | Masters in Public Policy and Administration (MPPA) | Aug. 2016 - Aug. 2018\nUniversity of MS | Oxford, MS | B.A in Political Science | Aug. 2010 - Aug. 2014"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nGreen Mountain Technology | Senior Analytics Engineer | Aug. 2020 - Present\nMS State University - Stennis Institute of Government | Research Associate / Graduate Research Assistant | July 2017 - Aug. 2020"
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html",
+    "href": "local_dev/01_project_quarto-blog.html",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Priority: #1. This is the foundation. Every other project on the list gets writeups here, so the blog compounds value across the entire portfolio. Ship the scaffolding fast, then let it accumulate.\n\n\n\n\nA polyglot technical blog aimed at R developers seriously evaluating or in the middle of moving to Python. Your differentiator is genuine fluency in both worlds — most “R vs Python” content is written by people who only know one side well. You know both, and you have a stack opinion (polars, plotnine, Shiny for Python, Quarto, uv) that’s coherent and defensible.\n\n\n\n\nLive at a custom-ish URL (e.g. seanconner.dev or &lt;github-username&gt;.github.io)\nQuarto-native, deployed via GitHub Actions\nClean, opinionated theme (not the default)\n5 published posts\nWorking RSS, Giscus comments, simple analytics\nNew posts go live by pushing to main — no manual deploy steps\n\n\n\n\n\nCompounding asset: every other portfolio project gets a blog post, which multiplies its discoverability.\nReputation signal: technical writing is the single most efficient way to demonstrate you can think, communicate, and ship. It’s worth more to a hiring manager than another GitHub repo.\nForcing function: writing about your projects forces you to actually finish them.\nAligns with your values: contributing to a professional community without self-promotion is exactly what a good technical blog does — you give away knowledge and let it speak for you.\n\n\n\n\n\n\n\n\nLayer\nTool\n\n\n\n\nSite engine\nQuarto (website project)\n\n\nHosting\nGitHub Pages (free, fast, zero config)\n\n\nDeploy\nGitHub Actions (quarto-dev/quarto-actions)\n\n\nComments\nGiscus (free, GitHub-discussions backed)\n\n\nAnalytics\nGoatCounter or Plausible (privacy-respecting)\n\n\nDomain (optional)\nCloudflare Registrar or Porkbun\n\n\nCode execution\nBoth R (knitr) and Python (jupyter) engines\n\n\n\n\n\n\n\n\n\nGoal: A barely-themed Quarto site live on GitHub Pages with one placeholder post.\n\nquarto create project blog tidyverse-to-python-honestly\nInitialize git, push to a new public GitHub repo\nEdit _quarto.yml: site title, author, description, nav structure (Home, Posts, About)\nAdd a placeholder about.qmd with a one-paragraph bio\nWrite a “Hello, World” post under posts/welcome/index.qmd\nEnable GitHub Pages in repo settings → source: GitHub Actions\nAdd .github/workflows/publish.yml from the Quarto docs (the standard one)\nPush, verify it deploys\n\nCheckpoint: You can hit https://&lt;user&gt;.github.io/tidyverse-to-python-honestly/ and see your placeholder post.\n\n\n\n\nGoal: Site has a distinctive visual identity that isn’t the default Quarto theme.\n\nPick a base theme from the Quarto themes gallery or Bootswatch\nAdd a custom theme.scss for overrides — typography first, then color\n\nPick a serif for headings (e.g. Source Serif, Newsreader, EB Garamond)\nPick a sans for body (e.g. Inter, IBM Plex Sans)\nPick a mono for code (e.g. JetBrains Mono, Fira Code)\nLimit yourself to 2 accent colors max\n\nAdd a custom favicon (use realfavicongenerator.net)\nSet up post listing with thumbnail, date, reading time, categories\nAdd og:image defaults so links preview nicely on social\nWrite a real “About” page (your background, the blog’s thesis, how to reach you)\n\nCheckpoint: Someone landing on the site can tell within 5 seconds what it’s about and who you are. The design looks intentional, not default.\nReference sites to study (don’t copy, but absorb): Albert Rapp, Isabella Velásquez, Andrew Heiss, Drew Breunig.\n\n\n\n\nGoal: Five high-quality posts that together form a coherent thesis: “here’s the modern Python data stack from an R-developer’s perspective.”\nThese are pre-scoped so you don’t have to invent topics. Tackle them in roughly this order:\n\n“Why I’m moving from pandas to polars (after 8 years of dplyr)”\n\nHook: dplyr’s mental model maps to polars almost 1:1, and to pandas not at all\nShow 5-6 dplyr expressions, then polars equivalents, then pandas equivalents\nBe honest about pandas’ strengths (ecosystem, ML library interop)\nEffort: 1 weekend\n\n“plotnine: ggplot2 for Python, and it’s actually good”\n\nWalk through porting a real ggplot2 chart to plotnine\nNote the gaps (animation, some extensions) honestly\nBonus: side-by-side with seaborn and matplotlib equivalents\nEffort: 1 weekend\n\n“Shiny for Python vs Shiny for R: a working developer’s comparison”\n\nBuild the same small app in both, link to repos\nCover reactive model differences, deployment story, ecosystem\nEffort: 1 weekend (heavier — you’ll need to actually build both apps)\n\n“A modern Python project setup that feels like RStudio”\n\nBasically a narrative version of your Positron + uv cheatsheet\nLink to the cheatsheet as a companion reference\nEffort: 1 evening (you already wrote the source material)\n\n“Quarto is the bridge: how I write code in two languages without switching tools”\n\nShow a polyglot Quarto doc with R and Python in the same file passing data via Arrow\nLean on your actual experience\nEffort: 1 evening\n\n\nCheckpoint: 5 posts live, each with code, each at least 1,500 words. The blog now reads as a coherent body of work, not a collection of one-offs.\n\n\n\n\nGoal: All the small things that make it feel like a real, maintained blog.\n\nSet up Giscus comments (or skip if you’d rather not — totally fine)\nAdd an RSS feed (Quarto does this automatically — just verify it works)\nAdd GoatCounter or Plausible (skip Google Analytics)\nAdd a robots.txt and sitemap.xml (Quarto generates these)\nWrite a “Now” page (à la nownownow.com) — fits your intentional-living interest\nSubmit URL to Google Search Console\nAdd the site to your GitHub profile README\nCross-post one piece to Hacker News and/or r/rstats — see what happens\n\nCheckpoint: The blog is fully operational. Pushing to main deploys. Comments work. RSS works. Analytics are flowing.\n\n\n\n\nThe hardest phase, because no one’s grading it.\n\nCommit to one post per month minimum. Set a calendar reminder on the 1st.\nKeep a _drafts/ folder with seed ideas — never start from a blank page.\nTie posts to your other portfolio projects — every project below should produce 1-2 posts.\nAllow yourself short posts. A 600-word post about a single sharp idea is more valuable than a 4,000-word post you never finish.\n\nA reasonable trailing target: 12 posts in your first year, 20 in your second. That puts you in the top decile of technical bloggers by output alone.\n\n\n\n\n\n\nTheme rabbit hole. You will want to make the site perfect before writing. Don’t. The cornerstone posts matter 10× more than the typography. Set a 6-hour cap on Phase 2 and move on even if you’re not 100% satisfied.\nPerfection in posts. First drafts of all 5 cornerstone posts should ship within 4 weekends. Polish in v2. Done &gt; perfect.\nEngine config friction. Polyglot Quarto (R + Python in the same doc) requires both knitr and jupyter available. Document the setup in your README so you don’t lose hours debugging it later.\n\n\n\n\n\n\nQuarto Websites guide\nQuarto Blog tutorial\nQuarto + GitHub Pages publishing\nQuarto Themes\nGiscus setup\nAwesome Quarto — community examples and tooling\nAlbert Rapp’s Building a blog with Quarto\n\n\n\n\n\n\nSite is live on a domain you control.\nFive cornerstone posts published.\nDeploy is automated.\nYou have a system (calendar reminder + drafts folder) for ongoing posts.\n\nWhen all four are true, this project is shipped. Everything beyond that is maintenance and growth, which happens alongside the other projects.\n\n\n\n\n\nA natural home for writeups of Projects 02-05\nA discoverable signal to recruiters/hiring managers that you can communicate\nA platform you control — not LinkedIn, not Medium, not Substack\nReps at writing, which is a 10× multiplier on technical career growth"
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#mission",
+    "href": "local_dev/01_project_quarto-blog.html#mission",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "A polyglot technical blog aimed at R developers seriously evaluating or in the middle of moving to Python. Your differentiator is genuine fluency in both worlds — most “R vs Python” content is written by people who only know one side well. You know both, and you have a stack opinion (polars, plotnine, Shiny for Python, Quarto, uv) that’s coherent and defensible."
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#what-done-with-v1-looks-like",
+    "href": "local_dev/01_project_quarto-blog.html#what-done-with-v1-looks-like",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Live at a custom-ish URL (e.g. seanconner.dev or &lt;github-username&gt;.github.io)\nQuarto-native, deployed via GitHub Actions\nClean, opinionated theme (not the default)\n5 published posts\nWorking RSS, Giscus comments, simple analytics\nNew posts go live by pushing to main — no manual deploy steps"
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#why-this-matters",
+    "href": "local_dev/01_project_quarto-blog.html#why-this-matters",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Compounding asset: every other portfolio project gets a blog post, which multiplies its discoverability.\nReputation signal: technical writing is the single most efficient way to demonstrate you can think, communicate, and ship. It’s worth more to a hiring manager than another GitHub repo.\nForcing function: writing about your projects forces you to actually finish them.\nAligns with your values: contributing to a professional community without self-promotion is exactly what a good technical blog does — you give away knowledge and let it speak for you."
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#stack",
+    "href": "local_dev/01_project_quarto-blog.html#stack",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Layer\nTool\n\n\n\n\nSite engine\nQuarto (website project)\n\n\nHosting\nGitHub Pages (free, fast, zero config)\n\n\nDeploy\nGitHub Actions (quarto-dev/quarto-actions)\n\n\nComments\nGiscus (free, GitHub-discussions backed)\n\n\nAnalytics\nGoatCounter or Plausible (privacy-respecting)\n\n\nDomain (optional)\nCloudflare Registrar or Porkbun\n\n\nCode execution\nBoth R (knitr) and Python (jupyter) engines"
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#phase-plan",
+    "href": "local_dev/01_project_quarto-blog.html#phase-plan",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Goal: A barely-themed Quarto site live on GitHub Pages with one placeholder post.\n\nquarto create project blog tidyverse-to-python-honestly\nInitialize git, push to a new public GitHub repo\nEdit _quarto.yml: site title, author, description, nav structure (Home, Posts, About)\nAdd a placeholder about.qmd with a one-paragraph bio\nWrite a “Hello, World” post under posts/welcome/index.qmd\nEnable GitHub Pages in repo settings → source: GitHub Actions\nAdd .github/workflows/publish.yml from the Quarto docs (the standard one)\nPush, verify it deploys\n\nCheckpoint: You can hit https://&lt;user&gt;.github.io/tidyverse-to-python-honestly/ and see your placeholder post.\n\n\n\n\nGoal: Site has a distinctive visual identity that isn’t the default Quarto theme.\n\nPick a base theme from the Quarto themes gallery or Bootswatch\nAdd a custom theme.scss for overrides — typography first, then color\n\nPick a serif for headings (e.g. Source Serif, Newsreader, EB Garamond)\nPick a sans for body (e.g. Inter, IBM Plex Sans)\nPick a mono for code (e.g. JetBrains Mono, Fira Code)\nLimit yourself to 2 accent colors max\n\nAdd a custom favicon (use realfavicongenerator.net)\nSet up post listing with thumbnail, date, reading time, categories\nAdd og:image defaults so links preview nicely on social\nWrite a real “About” page (your background, the blog’s thesis, how to reach you)\n\nCheckpoint: Someone landing on the site can tell within 5 seconds what it’s about and who you are. The design looks intentional, not default.\nReference sites to study (don’t copy, but absorb): Albert Rapp, Isabella Velásquez, Andrew Heiss, Drew Breunig.\n\n\n\n\nGoal: Five high-quality posts that together form a coherent thesis: “here’s the modern Python data stack from an R-developer’s perspective.”\nThese are pre-scoped so you don’t have to invent topics. Tackle them in roughly this order:\n\n“Why I’m moving from pandas to polars (after 8 years of dplyr)”\n\nHook: dplyr’s mental model maps to polars almost 1:1, and to pandas not at all\nShow 5-6 dplyr expressions, then polars equivalents, then pandas equivalents\nBe honest about pandas’ strengths (ecosystem, ML library interop)\nEffort: 1 weekend\n\n“plotnine: ggplot2 for Python, and it’s actually good”\n\nWalk through porting a real ggplot2 chart to plotnine\nNote the gaps (animation, some extensions) honestly\nBonus: side-by-side with seaborn and matplotlib equivalents\nEffort: 1 weekend\n\n“Shiny for Python vs Shiny for R: a working developer’s comparison”\n\nBuild the same small app in both, link to repos\nCover reactive model differences, deployment story, ecosystem\nEffort: 1 weekend (heavier — you’ll need to actually build both apps)\n\n“A modern Python project setup that feels like RStudio”\n\nBasically a narrative version of your Positron + uv cheatsheet\nLink to the cheatsheet as a companion reference\nEffort: 1 evening (you already wrote the source material)\n\n“Quarto is the bridge: how I write code in two languages without switching tools”\n\nShow a polyglot Quarto doc with R and Python in the same file passing data via Arrow\nLean on your actual experience\nEffort: 1 evening\n\n\nCheckpoint: 5 posts live, each with code, each at least 1,500 words. The blog now reads as a coherent body of work, not a collection of one-offs.\n\n\n\n\nGoal: All the small things that make it feel like a real, maintained blog.\n\nSet up Giscus comments (or skip if you’d rather not — totally fine)\nAdd an RSS feed (Quarto does this automatically — just verify it works)\nAdd GoatCounter or Plausible (skip Google Analytics)\nAdd a robots.txt and sitemap.xml (Quarto generates these)\nWrite a “Now” page (à la nownownow.com) — fits your intentional-living interest\nSubmit URL to Google Search Console\nAdd the site to your GitHub profile README\nCross-post one piece to Hacker News and/or r/rstats — see what happens\n\nCheckpoint: The blog is fully operational. Pushing to main deploys. Comments work. RSS works. Analytics are flowing.\n\n\n\n\nThe hardest phase, because no one’s grading it.\n\nCommit to one post per month minimum. Set a calendar reminder on the 1st.\nKeep a _drafts/ folder with seed ideas — never start from a blank page.\nTie posts to your other portfolio projects — every project below should produce 1-2 posts.\nAllow yourself short posts. A 600-word post about a single sharp idea is more valuable than a 4,000-word post you never finish.\n\nA reasonable trailing target: 12 posts in your first year, 20 in your second. That puts you in the top decile of technical bloggers by output alone."
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#boss-fights-anticipate-these",
+    "href": "local_dev/01_project_quarto-blog.html#boss-fights-anticipate-these",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Theme rabbit hole. You will want to make the site perfect before writing. Don’t. The cornerstone posts matter 10× more than the typography. Set a 6-hour cap on Phase 2 and move on even if you’re not 100% satisfied.\nPerfection in posts. First drafts of all 5 cornerstone posts should ship within 4 weekends. Polish in v2. Done &gt; perfect.\nEngine config friction. Polyglot Quarto (R + Python in the same doc) requires both knitr and jupyter available. Document the setup in your README so you don’t lose hours debugging it later."
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#references",
+    "href": "local_dev/01_project_quarto-blog.html#references",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Quarto Websites guide\nQuarto Blog tutorial\nQuarto + GitHub Pages publishing\nQuarto Themes\nGiscus setup\nAwesome Quarto — community examples and tooling\nAlbert Rapp’s Building a blog with Quarto"
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#done-criteria-the-only-ones-that-matter",
+    "href": "local_dev/01_project_quarto-blog.html#done-criteria-the-only-ones-that-matter",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "Site is live on a domain you control.\nFive cornerstone posts published.\nDeploy is automated.\nYou have a system (calendar reminder + drafts folder) for ongoing posts.\n\nWhen all four are true, this project is shipped. Everything beyond that is maintenance and growth, which happens alongside the other projects."
+  },
+  {
+    "objectID": "local_dev/01_project_quarto-blog.html#what-this-unlocks",
+    "href": "local_dev/01_project_quarto-blog.html#what-this-unlocks",
+    "title": "Project 01 — “Tidyverse to Python, Honestly” (Quarto Blog)",
+    "section": "",
+    "text": "A natural home for writeups of Projects 02-05\nA discoverable signal to recruiters/hiring managers that you can communicate\nA platform you control — not LinkedIn, not Medium, not Substack\nReps at writing, which is a 10× multiplier on technical career growth"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello, World!",
+    "section": "",
+    "text": "Kicking off this blog with the most overdone trope in all of tech blogging, baby! And the turbo-generic stock photo directly built-in to the Quarto default welcome page!"
+  }
+]
