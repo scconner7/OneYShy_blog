@@ -17,6 +17,7 @@ htmlcov/
 
 # Quarto
 /.quarto/
+/_site/
 *_files/
 *_cache/
 
